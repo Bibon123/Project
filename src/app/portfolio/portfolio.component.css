@@ -1,8 +1,13 @@
-img{
-    width: 500px;
-    display: block;
-    margin: auto;
+/* div{
     
    
+    display: grid;
+    grid-template-columns: repeat();
+    
+   
+} */
+img{
+    width: 400px;
+
 }
    
