@@ -7,9 +7,16 @@ import { DataService } from '../data.service';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent implements OnInit {
-  images: string[] = ['8G1A2596.jpg', '8G1A2357.jpg', '8G1A4910.jpg'];
+  
   constructor(private dataService: DataService) {
   }
+  
+  
+  list = [
+  {img: '8G1A2357.jpg', id: 1},
+  {img:'8G1A2596.jpg', id: 2},
+  {img: '8G1A4910.jpg', id: 3}
+];
 
 
   
@@ -17,4 +24,7 @@ export class PortfolioComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+
 }
+

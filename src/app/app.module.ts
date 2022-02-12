@@ -9,6 +9,7 @@ import { PriceComponent } from './price/price.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { EditdeleteComponent } from './editdelete/editdelete.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { CommonModule } from '@angular/common';
     ReviewComponent,
     PortfolioComponent,
     PriceComponent,
+    EditdeleteComponent,
     
   ],
  

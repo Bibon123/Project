@@ -1,5 +1,8 @@
 <div>
-  <div *ngFor="let image of images">
-    <img [src]="'assets/images/' + image" alt="">
+  <div *ngFor="let image of list">
+   
+    <a  [routerLink]="['editdetele', image.id]"><img [src]="'assets/images/' + image.img" alt=""></a>
+    <router-outlet></router-outlet>
   </div>
+  
 </div>
