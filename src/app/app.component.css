@@ -1,0 +1,22 @@
+.main-layout {
+    display: flex;
+    flex-direction: column;
+}
+.main-layout {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+}
+footer {
+    display: flex;
+    align-content:flex-end;
+}
+.nav {
+    margin-left: 32%;
+}
+.A {
+    margin-left: 240px;
+}
+.C{
+    margin-left: 240px;
+}

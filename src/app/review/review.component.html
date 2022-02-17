@@ -1,0 +1,24 @@
+<div>
+    
+
+    <form class="Commnet">
+        <h4>Оставить отзыв</h4>
+        
+      
+        <input placeholder="имя" type="text" name="name" [(ngModel)]="message.userName" >
+        <input  placeholder="отзыв"type="text" name="text" [(ngModel)]="message.message">
+        <button (click)="addComment()">Отправить</button>
+    </form>
+</div>
+
+
+
+
+<div style="height: 600px; overflow-y: scroll; margin-top: 100px;">
+    
+    <div *ngFor="let message of messages">
+       <div>{{message.userName}}</div>
+       <div>{{message.message}}</div>
+    </div>
+</div>
+
