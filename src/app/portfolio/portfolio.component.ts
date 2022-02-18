@@ -15,10 +15,14 @@ export class PortfolioComponent implements OnInit {
   list = [
   {img: '8G1A2357.jpg', id: 1},
   {img:'8G1A2596.jpg', id: 2},
+<<<<<<< HEAD
   {img: '8G1A4910.jpg', id: 3},
   {img: '8G1A0762-2.jpg', id: 4},
   {img: '8G1A1939-2.jpg', id: 5},
   {img: '8G1A6257.jpg', id: 6},
+=======
+  {img: '8G1A4910.jpg', id: 3}
+>>>>>>> e555efe24d432e5226cda16b09dc3ee5ce863631
 ];
 
 
